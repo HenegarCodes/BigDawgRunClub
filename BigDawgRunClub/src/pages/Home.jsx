@@ -1,6 +1,6 @@
 
+import './home.css'
 
-import Nav from './Nav.jsx';
 
 
 
@@ -11,7 +11,8 @@ const Home = () => {
 
 
     <div>
-        <Nav />
+        <h1>Big Dawg Run Club</h1>
+        
     </div>
     )
 }
