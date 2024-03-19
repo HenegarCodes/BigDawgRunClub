@@ -1,4 +1,4 @@
-h1 {
+#title{
     display: flex;
-    position: relative;
+    justify-content: center;
 }
