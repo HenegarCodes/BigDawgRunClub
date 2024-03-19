@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import './navbar.css'
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -26,8 +27,7 @@ const Navbar = () => {
                       <li><a href="#Schedule" onClick={closeMenu}>Schedule</a></li>
                       <li><a href="#Connect" onClick={closeMenu}>Connect</a></li>
                       <li><a href="#Gallery" onClick={closeMenu}>Photo Gallery</a></li>
-                      <li><a href="#Login" onClick={closeMenu}>Login</a></li>
-                      <li><a href="#Signup" onClick={closeMenu}>Sign up</a></li>
+                      <li><a href="#Login" onClick={closeMenu}>Get Notified!</a></li>
                   </ul>
                   <div className="close-button" onClick={closeMenu}>
                       <FontAwesomeIcon icon={faTimes} />
